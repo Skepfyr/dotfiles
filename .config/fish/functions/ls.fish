@@ -1,3 +1,3 @@
 function ls --description 'List contents of directory'
-	exa $argv
+    exa $argv
 end
