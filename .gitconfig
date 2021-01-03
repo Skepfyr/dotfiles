@@ -1,0 +1,7 @@
+[user]
+	email = jack.rickard@outlook.com
+	name = Jack Rickard
+[core]
+	excludesfile = /home/jack/.config/git/ignore
+[pull]
+	ff = only
