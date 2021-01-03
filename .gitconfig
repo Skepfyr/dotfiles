@@ -2,6 +2,23 @@
 	email = jack.rickard@outlook.com
 	name = Jack Rickard
 [core]
-	excludesfile = /home/jack/.config/git/ignore
+	eol = lf
+	autocrlf = false
+	pager = diff-so-fancy | less --tabs=4 -RFX
+	excludesfile = ~/.config/git/ignore
 [pull]
 	ff = only
+[color]
+	ui = true
+[color "diff-highlight"]
+	oldNormal = red bold
+	oldHighlight = red bold 52
+	newNormal = green bold
+	newHighlight = green bold 22
+[color "diff"]
+	meta = 11
+	frag = magenta bold
+	commit = yellow bold
+	old = red bold
+	new = green bold
+	whitespace = red reverse
