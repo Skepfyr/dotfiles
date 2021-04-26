@@ -1,6 +1,7 @@
 [user]
 	email = jack.rickard@outlook.com
 	name = Jack Rickard
+	signingkey = 0xFF8B7A27DE41C0CC
 [core]
 	eol = lf
 	autocrlf = false
@@ -22,3 +23,5 @@
 	old = red bold
 	new = green bold
 	whitespace = red reverse
+[commit]
+	gpgsign = true
