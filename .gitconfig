@@ -25,3 +25,5 @@
 	whitespace = red reverse
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main
