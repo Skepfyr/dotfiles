@@ -44,6 +44,10 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
+# Take a screenshot
+bindsym Print exec shotgun $(hacksaw -f "-i %i -g %g") - | xclip -t 'image/png' -selection clipboard
+bindsym $mod+Print exec shotgun $(hacksaw -f "-i %i -g %g") 
+
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
