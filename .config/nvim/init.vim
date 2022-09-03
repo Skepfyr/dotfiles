@@ -18,6 +18,7 @@ let g:indentLine_char = '▏' " Use a thin left-aligned line
 
 
 set undofile " Persist undo history
+set spell spelllang=en_gb " Turn on spellcheck
 
 set number " Display line numbers
 set termguicolors " Use richer colour palette
@@ -28,7 +29,7 @@ set virtualedit=onemore,block " Allow the cursor to go one-off the end of lines,
 set ignorecase smartcase hlsearch incsearch " Sensible searching defaults
 
 set list listchars=eol:↵,tab:→·,nbsp:·,trail:~,extends:»,precedes:« " Show hidden characters
-" Maie the newly visible characters less visible
+" Make the newly visible characters less visible
 hi NonText guifg=#444444
 set showbreak=>\  " Show a character for wrapped lines
 
