@@ -5,7 +5,7 @@
 [core]
 	eol = lf
 	autocrlf = false
-	pager = diff-so-fancy | less --tabs=4 -RFX
+	pager = delta
 	excludesfile = ~/.config/git/ignore
 [pull]
 	ff = only
@@ -29,3 +29,29 @@
 	defaultBranch = main
 [push]
 	autoSetupRemote = true
+	followtags = true
+[rerere]
+	enabled = true
+[merge]
+	conflictstyle = zdiff3
+[rebase]
+	autosquash = true
+	autostash = true
+[interactive]
+	diffFilter = delta --color-only
+[diff]
+	colorMoved = default
+	algorithm = histogram
+	submodule = log
+[delta]
+	navigate = true
+[transfer]
+	fsckobjects = true
+[fetch]
+	fsckobjects = true
+[receive]
+	fsckobjects = true
+[status]
+	submoduleSummary = true
+[submodule]
+	recurse = true
