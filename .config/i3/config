@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-default_border pixel 1
+default_border none
 default_floating_border pixel 1
 hide_edge_borders both
 
