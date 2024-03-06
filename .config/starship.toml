@@ -8,7 +8,7 @@ format = "[$time]($style)"
 time_format = "%R"
 
 [aws]
-symbol = "  "
+symbol = " "
 
 [conda]
 symbol = " "
@@ -18,6 +18,9 @@ symbol = " "
 
 [docker_context]
 symbol = " "
+
+[container]
+disabled = true
 
 [elixir]
 symbol = " "
@@ -48,6 +51,9 @@ symbol = " "
 
 [nix_shell]
 symbol = " "
+
+[openstack]
+symbol = " "
 
 [package]
 symbol = " "
