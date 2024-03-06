@@ -7,6 +7,7 @@ end
 
 starship init fish | source
 zoxide init fish | source
+pyenv init - | source
 direnv hook fish | source
 
 thefuck --alias | source
