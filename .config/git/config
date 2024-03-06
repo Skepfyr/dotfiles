@@ -1,5 +1,5 @@
 [user]
-	email = jack.rickard@outlook.com
+	email = jack.rickard@microsoft.com
 	name = Jack Rickard
 	signingkey = 0xFF8B7A27DE41C0CC
 [core]
@@ -30,6 +30,10 @@
 [push]
 	autoSetupRemote = true
 	followtags = true
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[credential]
+	helper = /mnt/c/Program\\ Files\\ \\(x86\\)/Git\\ Credential\\ Manager/git-credential-manager-core.exe
 [rerere]
 	enabled = true
 [merge]
