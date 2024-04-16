@@ -33,7 +33,12 @@ set list listchars=eol:↵,tab:→·,nbsp:·,trail:~,extends:»,precedes:« " Sh
 hi NonText guifg=#444444
 set showbreak=>\  " Show a character for wrapped lines
 
-set foldlevelstart=10 " Ony close folds above level 10 by default
+set foldlevelstart=10 " Only close folds above level 10 by default
 
-autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+set cindent
+set tabstop=8 " Make it nice an obvious if a tab has snuck in.
+set softtabstop=-1 " Uses the value in shiftwidth.
+set shiftwidth=4 " The number of spaces an indent should be
+set expandtab
+autocmd FileType yaml setlocal sw=2
 
